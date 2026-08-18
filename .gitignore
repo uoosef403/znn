@@ -1,0 +1,14 @@
+# Zig build cache + install output
+.zig-cache/
+zig-out/
+*.o
+*.obj
+
+# Data: downloaded corpus + trained checkpoints/tokenizers are all regenerable
+# (scripts/fetch_fineweb.py + the apps recreate them). Don't ship them.
+data/
+
+# editor / os cruft
+.DS_Store
+*.swp
+*~
