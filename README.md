@@ -26,6 +26,7 @@ solution. See the [reference guide](_reference_README.md) for details.
 The project requires Zig 0.16.0.
 
 ```sh
+mkdir -p data
 zig build test
 zig build run-13-capstone -- smoke
 ```
